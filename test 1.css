@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background: repeating-conic-gradient(rgb(255, 250, 250) 0%, transparent .0002%, transparent .075%, transparent .65%), 
+                repeating-conic-gradient(rgba(255, 255, 255, 0.23) 0%, transparent .0004%, transparent 0.05%, transparent .495%),
+                radial-gradient(circle at 50% 50%, #121212, #000);
+	            perspective: 100vmin;
+
+    }
+
+/* Container */
+.container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: ROG FONT;
+    text-align: center;
+      
+}
+
+.form-box{
+    display: block;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(80%);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgb(rgba(156, 139, 139, 0.837));
+    border-radius: 25px;
+    margin-top: 75px;
+    margin-right: 100px;
+    padding: 5px 5px 5px 5px; 
+    text-align: center; 
+    height: 25vmax;
+    width : 25vmax;
+    box-shadow: 0px 0px 5px #fff,
+    0px 0px 10px rgb(0, 242, 255),
+    0px 0px 15px #fff,
+    0px 0px 20px rgb(0, 242, 255),
+    0px 0px 25px #fff;
+}
+
+.result-box {
+    display: block;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(80%);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgb(rgba(156, 139, 139, 0.837));
+    border-radius: 25px;
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 5px 5px 5px 5px;  
+    text-align: center; 
+    height: 25vmax;
+    width : 25vmax;
+    box-shadow: 0px 0px 5px #fff,
+    0px 0px 10px rgb(0, 242, 255),
+    0px 0px 15px #fff,
+    0px 0px 20px rgb(0, 242, 255),
+    0px 0px 25px #fff;
+}
+
+#btn #file #emtn {
+    margin: 10px 0px 10px 0px;
+}
+
+#btn {
+    height: 50px;
+    width: 100px;
+}
+
+/* Neon Text */
+.neon-text {
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: linear-gradient(90deg, #ff00ff, #00ffff, #00ff00, #ff9900, #ff00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: neon-glow 2s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff;
+}
+
+
+
+
+/* Keyframes for Neon Glow Animation */
+@keyframes neon-glow {
+    0% {
+        text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    }
+    100% {
+        text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+    }
+}

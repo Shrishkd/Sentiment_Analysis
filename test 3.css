@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: repeating-conic-gradient(rgb(255, 250, 250) 0%, transparent .0002%, transparent .075%, transparent .65%), 
+                repeating-conic-gradient(rgba(255, 255, 255, 0.23) 0%, transparent .0004%, transparent 0.05%, transparent .495%),
+                radial-gradient(circle at 50% 50%, #121212, #000);
+	            perspective: 100vmin; 
+    
+}
+
+.container {
+    background-color:rgba(255, 255, 255, 0.812);
+    backdrop-filter: blur(80%);
+    padding: 20px;
+    border-radius: 10px;
+    height: 45vmax;
+    width: 90vmax;
+    max-width: 1200px;
+    box-shadow: 0 5px 15px rgba(255, 251, 251, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 10px 0;
+    background:repeating-conic-gradient(rgb(255, 250, 250) 0%, transparent .0002%, transparent .075%, transparent .65%), 
+    repeating-conic-gradient(rgba(255, 255, 255, 0.23) 0%, transparent .0004%, transparent 0.05%, transparent .495%),
+    radial-gradient(circle at 50% 50%, #121212, #000);
+    perspective: 100vmin;
+    border-radius: 10px;                 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-section {
+    margin-top: 75px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-run-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upload-btn {
+    background-color: #077bff;
+    color: white;
+}
+
+.run-btn {
+    background-color: #008b43;
+    color: white;
+}
+
+.upload-data {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#fileInput {
+    margin-top: 10px;
+}
+
+.results-section {
+    margin-top: 20px;
+}
+
+.results-section .charts {
+    text-align: center;
+}
+
+.chart {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
