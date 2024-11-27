@@ -51,6 +51,32 @@ p {
     justify-content: center;
 }
 
+.output{
+    
+    justify-content: center;
+    gap: 20px;  
+    border: 2px dashed #444;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    width: 465px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#out-put {
+    
+    padding: 10px;
+    border: 0px solid #444;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: #fff;
+    text-align: center;
+    
+}
+
 .upload-box p, .input-box p {
     font-size: 12px;
     color: #888;
@@ -75,17 +101,7 @@ p {
     text-align: center;
 }
 
-#out-put {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #444;
-    border-radius: 4px;
-    background-color: #1e1e1e;
-    color: #fff;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-top: 10px;
-}
+
 
 .text-field::placeholder {
     color: #888;
@@ -99,6 +115,7 @@ p {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .submit-btn:hover, .detect-btn:hover {
