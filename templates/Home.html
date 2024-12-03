@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodify</title>
+    <link rel="icon" href="{{ url_for('static', filename='Logo.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Home.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="{{ url_for('static', filename='Logo.png') }}" alt="logo-error"> Moodify</div>
+        <a href="{{ url_for('static', filename='Mood2.html') }}" class="btn" target="_self">Launch app</a>
+    </header>
+    <main>
+        <p class="head">
+            Harnessing Machine Learning for <br>
+            Sentiment Analysis
+        </p>
+        <p class="sub-head">
+            By leveraging natural language processing and advanced algorithms, we aim to extract <br>
+            meaningful insights from social media, reviews,and other forms of text,enhancing our <br>
+            understanding of public opinion and consumer behaviour. <br>
+            <br>
+            <a href="{{ url_for('static', filename='Mood2.html') }}" class="btn" target="_self">Try it now</a>
+            <details>
+                <summary></summary>
+                <p>
+                    "Discover the power of emotions with our cutting-edge Sentiment Analysis model.By leveraging advanced <br> 
+                    machine learning techniques,our system analyzes text data to identify sentiments like positive, negative, <br>
+                    or neutral, enabling businesses to understand customer feedback, enhance user experiences,<br>
+                    and make data-driven decisions.Experience the future of emotional intelligence in action!"
+                </p>
+            </details>
+        </p>
+    </main>
+<div class="parent">
+
+    
+    <div class="Info-box">
+        <h1>HOW IT WORKS</h1>
+        
+        <div class="content-box-front">
+            <fieldset>
+                <legend>&nbsp;1&nbsp;</legend>
+                <center><img src="{{ url_for('static', filename='upload.png') }}" alt="error"><br>
+                    <br>
+                    Upload Content
+                    <br>
+                    <br>
+                    <p class="detail"> Simply upload Image, text or CSV file in our platform.</p>
+                </center>
+            </fieldset>
+        </div>
+
+        <div class="content-box-front">
+            <fieldset>
+                <legend>&nbsp;2&nbsp; </legend>
+                <center><img src="{{ url_for('static', filename='AI.png') }}" alt="error"><br>
+                    <br>
+                   ML Analysis
+                    <br>
+                    <br>
+                    <p class="detail"> Our advanced ML multi-layer analysis using BERT algorithm</p></center>
+            </fieldset>
+        </div>
+        <div class="content-box-front">
+            <fieldset>
+                <legend>&nbsp;3&nbsp;</legend>
+                <center><img src="{{ url_for('static', filename='message.png') }}" alt="error"><br>
+                    <br>
+                    Detailed Report
+                    <br>
+                    <br>
+                    <p class="detail">Process comprehensive results with ML</p></center>
+            </fieldset>
+        </div>
+
+    </div>
+    <div class="application">
+        <h1>REAL WORLD APPLICATIION</h1>
+        
+        <div class="content-box-front">
+            <fieldset>
+                <legend>&nbsp;1&nbsp;</legend>
+                <center>
+                    <br>
+                    Market Research
+                    <br>
+                    <br>
+                    <p class="detail"> By analysing feedback from surveys, social media, and reviews, 
+                    companies can tailor their marketing strategies and product offerings to better meet '
+                    customer needs.</p>
+                </center>
+            </fieldset>
+        </div>
+
+        <div class="content-box-front">
+            <fieldset>
+                <legend>&nbsp;2&nbsp; </legend>
+                <center>
+                    <br>
+                    Customer Support Optimization
+                    <br>
+                    <br>
+                    <p class="detail">By prioritizing tickets based on sentiment (e.g., identifying frustrated customers), businesses can 
+                        enhance service efficiency and customer satisfaction.</p></center>
+            </fieldset>
+        </div>
+        <div class="content-box-front">
+            <fieldset>
+                <legend>&nbsp;3&nbsp;</legend>
+                <center>
+                    <br>
+                    Employee Feedback Analysis
+                    <br>
+                    <br>
+                    <p class="detail">Companies apply sentiment analysis to employee reviews and feedback to assess workplace morale and engagement levels. 
+                        <br>
+                        <br>
+                </p></center>
+            </fieldset>
+        </div>
+
+    </div>
+</div>    
+<br>
+<br>
+<center>
+<div class="about">
+    <h1>ABOUT US</h1>
+    <br>
+    <br>
+    <br>
+    <div class="card-container">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+             
+              <h2>Team Members</h2>
+              <p>Priyanshu Ranjan</p>
+              <p>Anvesha Rastogi</p>
+              <p>Harsh Gupta</p>
+              <p>Parth Deshpande</p>
+              <p>Shrish</p>
+            </div>
+            <div class="flip-card-back">
+                <h2>Supervisor</h2>
+                <p>Dr. Jitendra Parmar</p>
+                <h2>Reviewer 1</h2>
+                <p>Mr. Manoj Kumar</p>
+                <h2>Reviewer 2</h2>
+                <p>Dr. Raghvendra Mishra</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+</center>
+    <footer>
+        <div class="logo"><img src="{{ url_for('static', filename='Logo.png') }}" alt="logo-error"> Moodify</div>
+        <p>
+            <small> &copy; 2024 Moodify. All Rights reserved</small>
+        </p>
+    </footer>
+    <script src="{{ url_for('static', filename='Home.png') }}"></script>
+</body>
+</html>
