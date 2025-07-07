@@ -27,7 +27,7 @@ Each review is passed through a BERT model trained to detect nuanced sentiment, 
 Here’s a quick look at the Sentiment Analysis Web App in action:
 
 ### 🧾 1. Home Page – Enter Review or Upload CSV
-![Home Page](assets/SC 1.png) (assets/SC4.png)
+![Home Page](assets/SC 1.png)
 
 ---
 
