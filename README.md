@@ -27,17 +27,17 @@ Each review is passed through a BERT model trained to detect nuanced sentiment, 
 Here’s a quick look at the Sentiment Analysis Web App in action:
 
 ### 🧾 1. Home Page – Enter Review or Upload CSV
-![Home Page](assets/SC 1.png)
+![Home Page](assets/home1.png)
 
 ---
 
 ### 💬 2. Single Review Prediction Result
-![Single Review Output](assets/SC 3.png)
+![Single Review Output](assets/single_review_op.png)
 
 ---
 
 ### 📂 3. CSV Upload and Bulk Sentiment Result
-![CSV Upload Result](assets/SC 4.png)
+![CSV Upload Result](assets/csv_result.png)
 
 ---
 
