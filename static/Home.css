@@ -35,7 +35,7 @@ header .logo {
 }
 img{
     height: 2rem;
-    width: 2 rem;
+    width: 2rem;
 }
 
  .btn {
@@ -94,8 +94,8 @@ summary {
     width: 100%;
     margin: 50px 0px 50px 0px;
     color: white;
-    display: inline-block;
-    justify-items: center;
+    display: block;
+    text-align: center;
     
 }
 .content-box-front {
