@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import pandas as pd
 from model import classify_text  # Import the model logic
 from flask_cors import CORS
-CORS(app)
+
 
 
 app = Flask(__name__)
